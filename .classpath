@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/opt/android-sdk-linux/platforms/android-14/android.jar" sourcepath="/opt/android-sdk-linux/sources/android-14">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/opt/android-sdk-linux/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/lfhernandez/workspace/java/cl.dsoft.car.mobile/lib/cl.dsoft.car.misc.jar"/>
+	<classpathentry kind="lib" path="/home/lfhernandez/workspace/java/cl.dsoft.car.mobile/lib/simple-xml-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/home/lfhernandez/workspace/java/cl.dsoft.car.mobile/lib/joda-time-2.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
